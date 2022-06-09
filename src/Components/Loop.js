@@ -34,25 +34,29 @@ export const Loop = (props) => {
       {cards.length === 0
         ? ""
         : cards.map((elm, index) => (
-            <div className="loopNft">
-              <Link
+          <div className="cardBox">
+            <Link
                 onClick={() => {
                   dispatch(connectNftData({ allData: elm }));
                 }}
                 to={`/gallery/${elm.collectionDict.name}`}
               >
+            <div className="loopNft">
+              
                 <img
                   src={elm.first_nft.imageUrl}
                   alt=""
                   className="currentNftPng"
                 />
-              </Link>
               <div className="infoDiv">
-                <p className="collectionName loopN">
+                <p className="loopN">
                   {elm.collectionDict.name}
                 </p>
               </div>
             </div>
+            </Link>
+
+          </div>
           ))}
     </div>
   );

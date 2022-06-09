@@ -6,38 +6,55 @@
 
 }
 
-.loopNft {
+.cardBox {
   position: relative;
-  height: 500px;
-  width: 500px;
+  padding: auto;
   margin: auto;
+}
+.loopNft {
+  height: 500px;
+  width: 350px;
   color: white;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  
 }
 
 .currentNftPng {
-    height: 342px;
-    width: 342px;
-    z-index: 1 !important;
+  position: absolute;
+    height: 350px;
+    width: 350px;
+    top: 0;
+    left: 0;
+    margin: auto;
 }
 
 .infoDiv {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 1px solid transparent;
+  bottom: 0;
+  text-align: left;
+  left: 0;
+  right: 0;
+  position: absolute;
     border: 8px;
     word-wrap: normal;
-    width: 342px;
-    height: 104px;
+    width: 356px;
+    height: 84px;
+    margin: auto;
     color: white;
     background-color: #1f2535;
-
 }
 .loopN {
-  font-size: 48px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
 }
 
-.loopT {
-  font-size: 32px !important;
-}
+
 
 
 .discText {
