@@ -1,0 +1,56 @@
+.loop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+
+}
+
+.loopNft {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.currentNftPng {
+    height: 342px;
+    width: 342px;
+    z-index: 1 !important;
+}
+
+.infoDiv {
+    border: 8px;
+    word-wrap: normal;
+    width: 342px;
+    height: 104px;
+    color: white;
+    background-color: #1f2535;
+
+}
+.loopN {
+  font-size: 48px;
+}
+
+.loopT {
+  font-size: 32px !important;
+}
+
+
+.discText {
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: 36px;
+  }
+
+
+
+
+
+
+
+

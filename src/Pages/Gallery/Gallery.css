@@ -1,0 +1,100 @@
+
+.site-card-wrapper {
+  background-image: linear-gradient(
+    to bottom,
+    #111722,
+    #0B0E16,
+    #1D1F2B
+  );
+  height: 200vh;
+}
+
+.aboutCollection {
+  height: 500px;
+  background-image: linear-gradient(
+    to top,
+    #111722,
+    #0B0E16,
+    #1D1F2B
+  );
+color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.collectionContent{
+  position: absolute;
+  text-align: center;
+
+  left: 0;
+  right: 0;
+  top: 126px;
+  width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.collectionBanner {
+  height: 200px;
+  background-color: wheat;
+}
+
+.collectionAvatar{
+  background-color: red;
+  height: 128px;
+  width:128px;
+  margin: auto;
+}
+
+.collectionTitle{
+  margin: auto;
+  font-size: 24px;
+}
+.markdownDescription {
+  font-size: 12px;
+  margin: auto;
+}
+
+.collectionResources {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  width: 300px;
+  padding-top: 12px;
+  margin: auto;
+}
+
+.flipPages {
+  position: absolute;
+  display: flex;
+  flex-direction:row;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 256px;
+  margin: auto;
+}
+
+
+
+
+@media only screen and (max-width: 805px) {
+  .collectionContent{
+    width: 380px;
+  }
+  .collectionTitle {
+    font-size: 16px;
+  }
+  .markdownDescription {
+    font-size: 10px;
+  }
+  .site-card-wrapper {
+    height: 400vh;
+
+  }
+
+}

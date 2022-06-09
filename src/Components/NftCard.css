@@ -1,0 +1,52 @@
+.nftCard {
+  height: 300px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.nftImg {
+  border-radius: 8px 8px 0 0;
+  height: 240px;
+  width: 270px;
+  background-color: #0b0e16;
+  margin: auto;
+  position: relative;
+}
+
+.nftInfoDiv {
+  background-color: #0b0e16;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  color: white;
+  width: 270px;
+  margin: auto;
+  position: relative;
+  height: 80px;
+  margin-top: -8px;
+  padding: 8px;
+}
+.nftName {
+  top: 8px;
+  position: absolute;
+}
+
+.nftBid {
+  top: 36px;
+  position: absolute;
+}
+@media only screen and (max-width: 1024px) {
+  .nftCard {
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .site-card-wrapper {
+    margin: auto !important;
+  }
+  .ant-row {
+    flex-direction: column !important;
+    width: 390px !important;
+  }
+}

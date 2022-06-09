@@ -1,0 +1,156 @@
+.nftViewDisplay {
+    width: 100%;
+    background-image: linear-gradient(
+        to left,
+        #111722,
+        #0B0E16,
+        #1D1F2B
+      );
+      height: 100vh;
+      
+}
+
+.currentNftCard {
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(
+        to bottom,
+        #111722,
+        #0B0E16
+      );    
+    height: 68%;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.currentNftPng {
+    position: absolute;
+    height: 356px;
+    width: 356px;
+    top: 0;
+    bottom: 0;
+    right: 36px;
+    margin: auto;
+    background-color: royalblue;
+    border-radius: 8px;
+}
+.collectionName {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    font-size: 22px;
+}
+
+.tokenName {
+    position: absolute;
+    top: 28px;
+    left: 9px;
+    font-size: 52px;
+}
+
+.priceCurrency {
+    position: absolute;
+    bottom: 328px;
+    left: 12px;
+    font-size: 62px;
+}
+
+.highestBid {
+    position: absolute;
+    bottom: 328px;
+    left: 152px;
+    font-size: 62px;
+}
+.att {
+    position: absolute;
+    font-size: 22px;
+    bottom: 348px;
+    left: 12px;
+}
+.attList {
+    position: absolute;
+    font-size: 22px;
+    bottom: 92px;
+    left: 12px;
+    width: 300px;
+}
+.attrb {
+    position: relative;
+    font-size: 12px;
+
+}
+
+.nftDescription {
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+@media only screen and (max-width: 805px) {
+    .currentNftCard {
+        margin-top: 96px;
+        height: 90%;
+        width: 90%;
+
+    }
+    .currentNftPng {
+        height: 256px;
+        width: 256px;
+        top: 116px;
+        right: 0;
+        left: 0;
+        bottom: unset;
+        background-color: royalblue;
+        border-radius: 8px;
+    }
+
+    .tokenName {
+
+        font-size: 42px;
+    }
+
+    .priceCurrency {
+        top: unset 160px;
+        bottom:260px;
+        left: 200px;
+        right: unset 0;
+
+        margin: auto;
+        font-size: 32px;
+    }
+    
+    .highestBid {
+        top: unset 160px;
+        bottom:260px;
+        left: 150px;
+        right: unset 0;
+
+        margin: auto;
+        font-size: 32px;
+    }
+
+    .att {
+        font-size: 22px;
+        bottom: 196px;
+        left: 12px;
+    }
+    .attList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 22px;
+        bottom: 122px;
+        left: 12px;
+        width: 100%;
+    }
+    .attrb {
+        position: relative;
+        font-size: 12px;
+    
+    }
+}

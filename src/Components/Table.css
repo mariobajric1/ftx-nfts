@@ -1,0 +1,55 @@
+.sortButtons {
+    margin: 10px auto 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.currentPage {
+    margin-left: 8px;
+    height: 32px;
+    width: 32px;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.currentPageNum {
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 18px;
+    border-radius: 34px !important;
+    border: 1px solid #00b4c950 !important;
+    color: #00b4c9 !important;
+}
+
+.p0 {
+    border: 1px solid #00b4c9 !important;
+}
+.p2,.p9{
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 18px;
+    border-radius: 34px !important;
+    border: 1px solid #00b4c920 !important;
+    color: #00b4c920 !important;
+
+}
+.scrollController {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 12px;
+}

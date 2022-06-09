@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  overflow-x: 0;
+}
+button {
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+}
+ 
+
+
+/* antd overrides */
+.ant-table {
+  background-color: #1D1F2B !important;
+  border-radius: 8px !important;
+  color: white !important;
+  border-bottom: 0 !important;
+  overflow-x: auto !important;
+
+}
+
+.ant-layout-sider-children {
+  background-color: #000 !important;
+}
+
+
+th.ant-table-cell {
+  background-color: #1D1F2B !important;
+  color: white !important;
+  border-bottom: solid 1px #505363 !important;
+
+}
+
+.ant-table-cell {
+  font-family: 'Lato', sans-serif !important;
+  border-bottom: solid 1px #505363 !important;
+}
+td.ant-table-cell > a {
+  color: #007994 !important;
+  font-weight: 600;
+  font-size: 20px !important;
+
+}
+
+
+.ant-btn, .ant-btn-default {
+  background-color: #2f333C !important;
+  color: white !important;
+  border: 2px solid #2f333C !important;
+  border-radius: 0 !important;
+  margin: auto;
+}
+
+
+.ant-table-tbody >
+tr.ant-table-row:hover > td , .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background-color: unset !important;
+}
+.ant-btn:hover, .ant-btn-default:hover{
+  color: #007994 !important;
+  background-color: black !important;
+
+}
+
+.ant-btn::after, .ant-btn-default::after, .ant-btn-icon-only::after{
+  color: #007994 !important;
+  background-color: black !important;
+
+}
+
+.ant-btn, .ant-btn-default, .ant-btn-icon-only{
+  margin: 0px !important;
+  color: white !important;
+}
+
+.ant-btn-icon-only {
+  margin-left: 8px !important;
+  background-color: transparent !important;
+  border-radius: 34px !important;
+  border: 1px solid #00b4c950 !important;
+  color: #00b4c9 !important;
+}
+
+.ant-btn-icon-only:hover {
+  background-color: #00b4c930 !important;
+}
+
+.ant-collapse, .ant-collapse-icon-position-start, .ant-collapse-header-text{
+  color: white !important;
+  
+}
+
+.ant-collapse-item {
+  background-color: #505363 !important;
+  border: none !important;
+
+
+}
+
+.ant-collapse-content, .ant-collapse-content-active {
+  background-color: #505363 !important;
+  color: white !important;
+  border: none !important;
+}
+.ant-collapse, .ant-collapse-icon-position-start {
+  background-color: transparent !important;
+  border: 2px solid #505363 !important;
+  border-radius: 10px;
+}
+
+.ant-collapse-expand-icon {
+  color: white !important;
+}
+.ant-collapse-expand-icon:hover {
+  color: #00b4c9 !important;
+}
+
+.ant-collapse-expand-icon:active {
+  color: white !important;
+}
+
+
+.ant-layout-sider-children {
+  background-color: #111722 !important;
+ }
+
+.ant-layout .ant-layout-has-sider{
+  position: relative !important;
+  margin: auto !important;
+}
+
+
+body {
+  width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-x: hidden; 
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+@media only screen and (max-width: 1024px) {
+.ant-row {
+  margin: auto !important;
+}
+.ant-layout-sider, .ant-layout-sider-dark {
+  display: none !important;
+}
+}
