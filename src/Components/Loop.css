@@ -70,4 +70,13 @@
 
 
 
+@media only screen and (max-width: 805px) {
+  .currentNftPng {
+    height: 350px !important;
+    width: 350px !important;  
+  }
+  .infoDiv {
+    width: 350px !important;  
 
+  }
+}
