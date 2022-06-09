@@ -1,3 +1,9 @@
+
+npm i
+npm start
+
+
+
 # FTX Sample Project
 
 Thanks for your interest in FTX!
