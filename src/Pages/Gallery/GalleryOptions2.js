@@ -24,7 +24,7 @@ export const GalleryOptions2 = () => {
           Buy It Now <Checkbox type="checkbox" />
         </p>
       </Panel>
-      <Panel header="This is panel header 3" key="3">
+      <Panel header="Price" key="3">
         <p>
           <GallerySortByPrice />
         </p>
