@@ -33,7 +33,7 @@
     width: 356px;
     top: 0;
     bottom: 0;
-    right: 36px;
+    right: 0px;
     margin: auto;
     background-color: royalblue;
     border-radius: 8px;
@@ -49,21 +49,21 @@
     position: absolute;
     top: 28px;
     left: 9px;
-    font-size: 52px;
+    font-size: 46px;
 }
 
 .priceCurrency {
     position: absolute;
-    bottom: 328px;
+    top:104px;
     left: 12px;
-    font-size: 62px;
+    font-size: 46px;
 }
 
 .highestBid {
     position: absolute;
-    bottom: 328px;
-    left: 152px;
-    font-size: 62px;
+    top:104px;
+    left: 102px;
+    font-size: 46px;
 }
 .att {
     position: absolute;
@@ -85,7 +85,7 @@
 }
 
 .nftDescription {
-    font-size: 16px;
+    font-size: 14px;
     position: absolute;
     bottom: 0px;
     left: 10px;
@@ -95,7 +95,7 @@
     .currentNftCard {
         margin-top: 96px;
         height: 90%;
-        width: 90%;
+        width: 100%;
 
     }
     .currentNftPng {
@@ -105,45 +105,39 @@
         right: 0;
         left: 0;
         bottom: unset;
-        background-color: royalblue;
         border-radius: 8px;
     }
 
     .tokenName {
 
-        font-size: 42px;
+        font-size: 32px;
     }
 
     .priceCurrency {
-        top: unset 160px;
-        bottom:260px;
-        left: 200px;
-        right: unset 0;
-
+        top:  0;
+        left: auto;
+        right: 20px;
         margin: auto;
-        font-size: 32px;
+        font-size: 24px;
     }
     
     .highestBid {
-        top: unset 160px;
-        bottom:260px;
-        left: 150px;
-        right: unset 0;
-
+        top:  0;
+        left: auto;
+        right: 68px;
         margin: auto;
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .att {
         font-size: 22px;
-        bottom: 196px;
+        bottom: 180px;
         left: 12px;
     }
     .attList {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 22px;
         bottom: 122px;
         left: 12px;
         width: 100%;
@@ -154,3 +148,5 @@
     
     }
 }
+
+
