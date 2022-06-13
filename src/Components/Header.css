@@ -67,8 +67,12 @@
 }
 
 .droplist {
+    position: absolute;
+    top: 18px;
+    right: 82px;
     opacity: 0;
     width: 0;
+    height: 30px;
 }
 .linkContainer > * {
     margin: auto;
@@ -76,10 +80,25 @@
     cursor: pointer;
 }
 
+.explore, .collections, .LanguageIcon {
+    position: absolute;
+    top: 16px;
+}
+
+.explore {
+    right: 216px;
+}
+.collections {
+    right: 126px;
+
+}
+.LanguageIcon {
+    right: 84px;
+
+}
 
 .explore > p, .collections {
     color: #007994;
-    margin-top: 8px;
     padding: auto;
 }
 .explore > p:hover {
@@ -87,7 +106,10 @@
 }
 
 .connectButton {
-    height: 36px;
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    height: 30px;
     background-color: #007994;
     color: white;
     border: 1px solid transparent;

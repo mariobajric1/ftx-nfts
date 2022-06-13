@@ -45,6 +45,9 @@ const Header = () => {
                   <MenuItem onClick={popupState.close}>
                     Collections
                     </MenuItem>
+                    <MenuItem onClick={popupState.close}>
+                    Language Settings
+                    </MenuItem>
                 </Menu>
               </React.Fragment>
             )}
