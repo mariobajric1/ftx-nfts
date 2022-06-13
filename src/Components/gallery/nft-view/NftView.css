@@ -31,9 +31,9 @@
     position: absolute;
     height: 356px;
     width: 356px;
-    top: 0;
-    bottom: 0;
-    right: 0px;
+    top: 40px;
+    left: auto;
+    right:  30px;
     margin: auto;
     background-color: royalblue;
     border-radius: 8px;
@@ -68,15 +68,21 @@
 .att {
     position: absolute;
     font-size: 22px;
-    bottom: 348px;
+    bottom: 208px;
     left: 12px;
 }
 .attList {
     position: absolute;
-    font-size: 22px;
+    font-size: 12px;
     bottom: 92px;
     left: 12px;
-    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom: 82px;
+    left: 12px;
+    width: 100%;
 }
 .attrb {
     position: relative;
@@ -91,21 +97,18 @@
     left: 10px;
 }
 
-@media only screen and (max-width: 805px) {
+@media only screen and (max-width: 955px) {
     .currentNftCard {
         margin-top: 96px;
         height: 90%;
         width: 100%;
 
     }
-    .currentNftPng {
-        height: 256px;
-        width: 256px;
-        top: 116px;
-        right: 0;
+
+    .currentNftPng{
+        right: auto 0;
         left: 0;
-        bottom: unset;
-        border-radius: 8px;
+        top:  90px;
     }
 
     .tokenName {
@@ -131,21 +134,22 @@
 
     .att {
         font-size: 22px;
-        bottom: 180px;
+        bottom: 334px;
         left: 12px;
     }
     .attList {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+
         bottom: 122px;
-        left: 12px;
-        width: 100%;
+
     }
     .attrb {
         position: relative;
-        font-size: 12px;
+        font-size: 10px;
     
+    }
+
+    .nftDescription {
+        font-size: 12px;
     }
 }
 
