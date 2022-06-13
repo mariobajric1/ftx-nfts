@@ -35,7 +35,9 @@ const Home = () => {
           <div className="welcomeCard">
             <img alt="" className="welcomeCardImg" src="./ape.png" />
             <div className="cardInfo">
-              <p className="currentNftShowcased">Bored Ape Yacht Club</p>
+              <Link to='/gallery/Bored%20Ape%20Yacht%20Club' >
+                <p className="currentNftShowcased">Bored Ape Yacht Club</p>
+              </Link>
             </div>
           </div>
         </div>
