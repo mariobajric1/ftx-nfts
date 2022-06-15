@@ -32,14 +32,18 @@ const Home = () => {
           </div>
         </div>
         <div className="welcomeRight">
+        <Link to='/gallery/The%202974%20Collection' >
+
           <div className="welcomeCard">
-            <img alt="" className="welcomeCardImg" src="./ape.png" />
+            <img alt="" className="welcomeCardImg" src="./steph.png" />
             <div className="cardInfo">
-              <Link to='/gallery/Bored%20Ape%20Yacht%20Club' >
-                <p className="currentNftShowcased">Bored Ape Yacht Club</p>
-              </Link>
+                <p className="currentNftShowcased">The 2974 Collection</p>
+              <p className="showcaseDescription">Your Champion's record breaking moments. Share a piece of history with Stephen Curry. </p>
+
             </div>
           </div>
+          </Link>
+
         </div>
       </div>
 

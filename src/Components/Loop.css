@@ -18,16 +18,16 @@
   display: flex;
   flex-direction: column;
   margin: auto;
+  position: relative;
   
 }
 
 .currentNftPng {
   position: absolute;
-    height: 350px;
-    width: 350px;
-    top: 0;
-    left: 0;
-    margin: auto;
+    height: 350px !important;
+    width: 350px !important;
+    bottom: 10px !important;
+    right: 0 !important;
 }
 
 .infoDiv {
@@ -41,7 +41,7 @@
   position: absolute;
     border: 8px;
     word-wrap: normal;
-    width: 356px;
+    width: 350px;
     height: 84px;
     margin: auto;
     color: white;

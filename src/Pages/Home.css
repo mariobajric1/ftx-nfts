@@ -105,6 +105,7 @@
 .welcomeCardImg {
     height: 342px;
     width: 342px;
+    border-radius: 8px 8px 0 0;
 }
 
 .cardInfo {
@@ -130,6 +131,15 @@
     left: 12px;
     color: white;
 }
+
+.showcaseDescription {
+    position: absolute;
+    font-size: 14px;
+    top: 46px;
+    left: 12px;
+    color: white;
+}
+
 
 
 .currentNftShowcased:hover{
@@ -215,6 +225,13 @@
             margin-left: -8px;
                     
         }
+
+        .showcaseDescription {
+            top: auto;
+            bottom: 16px;
+            left: px;
+        }
+
         .homeBlockThree {
             margin-top: 600px;
         }
